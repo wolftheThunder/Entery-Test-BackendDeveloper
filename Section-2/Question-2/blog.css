@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+.title {
+    font-family: monospace;
+    font-size: 35px;
+}
+.sub-tite{
+    font-family: monospace;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.main-secction{
+    font-family: monospace;
+    margin-top: 0;
+    font-size: 18px;
+
+}
+.span{
+    color: #007BFF;
+    font-size: 38px;
+}
+
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.tags {
+    margin-top: 15px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.tags li {
+    background: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: monospace;
+    border-radius: 15px;
+    font-size: 14px;
+}
